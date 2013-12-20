@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <root>
 	<item>
-		<name>CHARACTER_ARROWS</name>
+		<name>ARROWS</name>
 		<appendix>Remap caps+j/l/i/k to left/right/up/down</appendix>
 		<identifier>private.betterarrows</identifier>
 		<autogen>__KeyToKey__ KeyCode::J, ModifierFlag::FN, KeyCode::CURSOR_LEFT</autogen>
@@ -10,7 +10,7 @@
 		<autogen>__KeyToKey__ KeyCode::K, ModifierFlag::FN, KeyCode::CURSOR_DOWN</autogen>
 	</item>
 	<item>
-		<name>SHIFT_CHARACTER_ARROWS</name>
+		<name>SHIFT_ARROWS</name>
 		<appendix>Remap caps+h/;/u/m to shift+left/right/up/down</appendix>
 		<identifier>private.shiftcharacterarrows</identifier>
 		<autogen>__KeyToKey__ KeyCode::S, ModifierFlag::FN, KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_R</autogen>
@@ -19,7 +19,7 @@
 		<autogen>__KeyToKey__ KeyCode::D, ModifierFlag::FN, KeyCode::CURSOR_DOWN, ModifierFlag::SHIFT_R</autogen>
 	</item>
 	<item>
-		<name>WORD_ARROWS</name>
+		<name>BIG_ARROWS</name>
 		<appendix>Remap caps+s/f/e/d to left/right/up/down word</appendix>
 		<identifier>private.wordarrows</identifier>
 		<autogen>__KeyToKey__ KeyCode::H, ModifierFlag::FN, KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_R</autogen>
@@ -28,12 +28,38 @@
 		<autogen>__KeyToKey__ KeyCode::N, ModifierFlag::FN, KeyCode::CURSOR_DOWN, ModifierFlag::OPTION_R</autogen>
 	</item>
 	<item>
-		<name>SHIFT_WORD_ARROWS</name>
+		<name>SHIFT_BIG_ARROWS</name>
 		<appendix>Remap caps+a/g/r/c to shift+left/right/up/down</appendix>
 		<identifier>private.shiftwordarrows</identifier>
 		<autogen>__KeyToKey__ KeyCode::A, ModifierFlag::FN, KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_R | ModifierFlag::OPTION_R</autogen>
 		<autogen>__KeyToKey__ KeyCode::G, ModifierFlag::FN, KeyCode::CURSOR_RIGHT, ModifierFlag::SHIFT_R | ModifierFlag::OPTION_R</autogen>
 		<autogen>__KeyToKey__ KeyCode::R, ModifierFlag::FN, KeyCode::CURSOR_UP, ModifierFlag::SHIFT_R | ModifierFlag::OPTION_R</autogen>
 		<autogen>__KeyToKey__ KeyCode::C, ModifierFlag::FN, KeyCode::CURSOR_DOWN, ModifierFlag::SHIFT_R | ModifierFlag::OPTION_R</autogen>
+	</item>
+	<item>
+		<name>HOME_END</name>
+		<appendix>Remap caps+q/p to home/end</appendix>
+		<identifier>private.homeend</identifier>
+		<autogen>__KeyToKey__ KeyCode::Q, ModifierFlag::FN, KeyCode::HOME</autogen>
+		<autogen>__KeyToKey__ KeyCode::P, ModifierFlag::FN, KeyCode::END</autogen>
+	</item>
+	<item>
+		<name>DELETE_FORWARD-DELETE</name>
+		<appendix>Remap caps+v/t to delete/forward-delete</appendix>
+		<identifier>private.delete</identifier>
+		<autogen>__KeyToKey__ KeyCode::V, ModifierFlag::FN, KeyCode::DELETE</autogen>
+		<autogen>__KeyToKey__ KeyCode::T, ModifierFlag::FN, KeyCode::FORWARD_DELETE</autogen>
+	</item>
+	<item>
+		<name>UNDO</name>
+		<appendix>Remap caps+space to command+z</appendix>
+		<identifier>private.undo</identifier>
+		<autogen>__KeyToKey__ KeyCode::SPACE, ModifierFlag::FN, KeyCode::Z, ModifierFlag::COMMAND_L</autogen>
+	</item>
+	<item>
+		<name>ESCAPE</name>
+		<appendix>Remap caps+' to escape</appendix>
+		<identifier>private.escape</identifier>
+		<autogen>__KeyToKey__ KeyCode::QUOTE, ModifierFlag::FN, KeyCode::ESCAPE</autogen>
 	</item>
 </root>
