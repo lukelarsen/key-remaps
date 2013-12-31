@@ -1,5 +1,5 @@
 # Custom Key Remappings for OSX
 
-This for is for use with KeyRemap4MacBook.
+This is for use with KeyRemap4MacBook.
 
-<a href="https://pqrs.org/macosx/keyremap4macbook/index.html.en">View this docs for this application</a>
+<a href="https://pqrs.org/macosx/keyremap4macbook/index.html.en">View the docs for this application</a>
